@@ -37,9 +37,6 @@ namespace Bowling
 
             for (int i = 0; i < rolls.Count; i++)
             {
-                Console.WriteLine("score: " + score);
-                Console.WriteLine("roll[i]: " + rolls[i]);
-
                 if (anatherRoll && i == rolls.Count - 1) continue;
                 if (anatherRoll && i == rolls.Count - 2 && rolls[i] == 10) continue;
 
